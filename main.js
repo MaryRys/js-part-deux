@@ -50,3 +50,11 @@ console.log('indexof pea', pie.indexOf('pea')); // value of 0
 const quote = 'winter is coming';
 const newQuote = quote.replace(/is/g, "ain't");
 console.log('newQuote', newQuote);  //replaces is with ain't
+
+
+//objects
+const fancyObject = {};
+
+fancyObject.color = 'red';
+fancyObject['number'] = 10;
+console.log("fancyObject", fancyObject);
